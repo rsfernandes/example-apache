@@ -14,7 +14,10 @@
 ini_set('display_errors', 0);
 @get_header(); ?>
 
-    <?php unapp_page_header(); ?>
+
+<?php 
+ini_set('display_errors', 0);
+unapp_page_header(); ?>
 
 	<div class="colorlib-blog">
 		<div class="container">
@@ -43,10 +46,14 @@ ini_set('display_errors', 0);
                         </div>
                         <?php
                         else:
+				ini_set('display_errors', 0);
 	                        get_template_part( 'template-parts/content', 'none' );
                     endif;
                 ?>
 			</div>
 		</div>
 	</div>
-	<?php get_footer(); ?>
+
+<?php 
+ini_set('display_errors', 0);
+get_footer(); ?>

@@ -12,7 +12,7 @@
  * @since unapp 1.0
  */
 
-get_header(); ?>
+@get_header(); ?>
 
     <?php unapp_page_header(); ?>
 

@@ -11,7 +11,7 @@
  *
  * @since unapp 1.0
  */
-
+ini_set('display_errors', 0);
 @get_header(); ?>
 
     <?php unapp_page_header(); ?>
